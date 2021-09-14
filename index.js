@@ -1,2 +1,2 @@
-import './classic.js';
-//import './tabs-plugin.js';
+//import './classic.js';
+import './tabs-plugin.js';

@@ -8,6 +8,7 @@ refs.controls.addEventListener('click', event => {
   if (event.target.nodeName !== "A") {
     return    
   }
+  
   const currentActiveControlItem = refs.controls.querySelector('.controls__item--active');
   if (currentActiveControlItem) {
     currentActiveControlItem.classList.remove('controls__item--active');
@@ -23,3 +24,4 @@ refs.controls.addEventListener('click', event => {
   pain.classList.add('pane--active');
   
 })
+
