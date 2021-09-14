@@ -1,0 +1,69 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  font-family: 
+  -apple-system,
+  BlinkMacSystemFont,
+  'Segoe UI',
+  Roboto,
+  Oxygen,
+  Ubuntu,
+  Cantarell,
+  'Open Sans',
+  'Helvetica Neue',
+  sans-serif;
+}
+a{
+  margin: 0;
+  text-decoration: none;
+  color: black;
+}
+.container{
+  padding: 0px 10px;
+  margin: 0px auto;
+}
+.tabs{
+  max-width: 600px;
+}
+.controls{
+  display: flex;
+  margin-bottom: 4px;
+}
+
+.controls__item{
+  padding: 10px 20px;
+  border: 1px solid black;
+  font-weight: 500;
+}
+.controls__item + .controls__item{
+  margin-left: 4px;
+}
+.controls__item--active{
+  background-color: darkorchid;
+  color: white;
+}
+
+.pane{
+  display: none;
+  padding: 15px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12) ;
+}
+
+.pane--active{
+  display: block;
+}
+.pane__fruit{
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 48px;
+}
+.pane__text{
+  margin-bottom: 0;
+}
